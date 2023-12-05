@@ -20,8 +20,10 @@ Example usage:
 # Instantiate the classifier (ensure it's already trained)
 classifier = NaiveBayes(your_train_data)
 
+"your_train_data" : it should be a pandas dataframe with two necessary attibutes with exact same names, 'text'; which is the essay and the other is class label with name "genrated", with int value 0 denoting human generated and 1 denoting ai generated.
+
 # Provide a sample essay
-essay = "Your test essay goes here."
+essay = "Your test essay goes here/n."
 
 # Predict the class
 predicted_class = classifier.predictClass(essay)
