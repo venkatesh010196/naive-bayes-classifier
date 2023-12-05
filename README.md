@@ -1,4 +1,4 @@
-# Naive Bayes Classifier for Essay Detection
+# Naive Bayes Classifier for Essay class Detection
 
 ## Instructions to Train and Test the Model on Colab Notebook
 
